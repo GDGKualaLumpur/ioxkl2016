@@ -1,0 +1,885 @@
+{
+  "partners" : [ {
+    "logos" : [ {
+      "name": "GDG Kuala Lumpur",
+      "url": "https://plus.google.com/102444623953913144164",
+      "logoUrl": "../images/partners/gdgkl.svg",
+      "width": 300
+    } ],
+    "title" : "Organizer"
+  }, {
+    "logos" : [ {
+      "name": "Google",
+      "url": "https://www.google.com.ua/intl/en/about/",
+      "logoUrl": "../images/partners/google.svg"
+  },{
+      "name": "Asia Pacific University",
+      "url": "http://www.apu.edu.my/",
+      "logoUrl": "../images/partners/apu.png",
+      "height": 100
+  }],
+    "title" : "General Partner"
+  } ],
+  "schedule" : [ {
+    "date" : "2016-07-30",
+    "dateReadable" : "July 30",
+    "timeslots" : [ {
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "sessions": [
+          [200]
+      ]
+  }, {
+      "startTime": "10:00",
+      "endTime": "10:15",
+      "sessions": [
+          [201]
+      ]
+  }, {
+      "startTime": "10:15",
+      "endTime": "11:00",
+      "sessions": [
+          [202]
+      ]
+  }, {
+      "startTime": "11:00",
+      "endTime": "11:40",
+      "sessions": [
+          [101],[102],[401]
+      ]
+  }, {
+      "startTime": "11:40",
+      "endTime": "12:20",
+      "sessions": [
+          [103],[113],[401]
+      ]
+  }, {
+      "startTime": "12:20",
+      "endTime": "13:00",
+      "sessions": [
+          [104],[105,106],[401]
+      ]
+  }, {
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "sessions": [
+          [203]
+      ]
+  }, {
+      "startTime": "14:00",
+      "endTime": "14:40",
+      "sessions": [
+          [107],[108]
+      ]
+  }, {
+      "startTime": "14:40",
+      "endTime": "15:20",
+      "sessions": [
+          [109],[110],[400]
+      ]
+  }, {
+      "startTime": "15:20",
+      "endTime": "16:00",
+      "sessions": [
+          [111],[112],[400]
+      ]
+  }, {
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "sessions": [
+          [204]
+      ]
+  } ],
+    "tracks" : [ {
+      "title" : "Auditorium 1"
+    }, {
+      "title" : "Auditorium 2"
+    }, {
+      "title" : "Lab"
+    } ]
+  }],
+  "sessions" : {
+    "200": {
+        "id": 200,
+        "title": "Registration",
+        "description": "Get your badge and enjoy talking with tech edicts around"
+    },
+    "201": {
+        "id": 201,
+        "title": "GDG Kuala Lumpur",
+        "description": "GDG Kuala Lumpur has come a long way. From its humble beginning back in 2009 as the Google Technology User Group (GTUG) with a bunch of very skilled hackers to a full fledge community right now. GDG KL is going to hold many more events that focus on sharing knowledge about the best practices of Software Engineering, Designs as well as using Google Technologies.",
+        "language": "English",
+        "complexity": "",
+        "presentation": "",
+        "videoId": "",
+        "speakers": [1],
+        "tags": ["General"]
+    },
+    "202": {
+        "id": 202,
+        "title": "Opening Keynote",
+        "description": "In this keynote, Bok will discuss the various new product releases for web, mobile and machine learning annouced at Google I/O 2016, Mountain View. Come, be inspired and discover how you can use tomorrow's technology today.",
+        "language": "English",
+        "complexity": "",
+        "presentation": "",
+        "videoId": "",
+        "speakers": [2],
+        "tags": ["General"]
+    },
+    "203": {
+        "id": 203,
+        "title": "Lunch",
+        "description": "Foooooooood!"
+    },
+    "204": {
+        "id": 204,
+        "title": "Photo session & Closing",
+        "description": "Let's take a selfie!"
+    },
+    "101": {
+        "id": 101,
+        "title": "The Journey to Google Play Awards Nominations - Sharing the Experience of Making Fabulous",
+        "description": "In this presentation, Taylor will be sharing about the journey of making Fabulous app into an Editor's Choice plus Google Play Award nominations, and what he and the team have learnt along the journey. ",
+        "speakers": [
+            3
+        ],
+        "language": "English",
+        "complexity": "Beginner",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Material Design"
+        ]
+    },
+    "102": {
+        "id": 102,
+        "title": "[Bahasa Malaysia] Kenali Aplikasi Web Progresif",
+        "description": "Hampir setiap daripada kita melayari Internet menggunakan telefon pintar. Namun wujud laman sesawang yang tidak bersifat progresif. Ia tidak responsif dengan ciri paparan peranti mudah alih yang tidak sama dengan paparan pada monitor komputer riba. Hal ini mengecewakan pengguna. Kini dengan memahami konsep aplikasi web progresif, anda akan menjadi pembangun laman yang responsif terhadap kehendak pengguna.",
+        "speakers": [
+            14
+        ],
+        "language": "Bahasa Malaysia",
+        "complexity": "Beginner",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Web"
+        ]
+    },
+    "103": {
+        "id": 103,
+        "title": "Android Theme Demystify",
+        "description": "Themes and styles are the bedrock of styling your Android UI, but do you know how they work? This talk will dive deeper into everything you have ever wanted to know about how styles and themes work together, what attributes really are, and how you can use them to make your styles more manageable.",
+        "speakers": [
+            4
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Android"
+        ]
+    },
+    "104": {
+        "id": 104,
+        "title": "[Bahasa Malaysia] Tingkatan Pengalaman Pengguna Aplikasi dengan Pangkalan Data Masa Nyata Firebase",
+        "description": "Realtime Database, boleh membuat app anda lebih interactive, lebih dynamic, dan lebih seronok digunakan. Tetapi, takkanlah kita nak tulis semula, semua database kita, API kita, apps kita, untuk mendapat manfaat daripada RealTime Database. Dalam perbincangan ini, saya akan menunujukan bagaimana kita mengunakan technologi Firebase, disamping API/Database yang kita sedia ada.",
+        "speakers": [
+            16
+        ],
+        "language": "Bahasa Melaysia",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Android"
+        ]
+    },
+    "105": {
+        "id": 105,
+        "title": "Fishing Firebass: Catching a ticket to Google I/O 2017",
+        "description": "Firebass Challenge is an Alternate Reality Game (ARG) that lives across a variety of static web pages created by Google’s Firebase team. <br/><br/>In this lightning talk, he will share his journey of becoming the first 100 people to win the free Google I/O 2017 ticket. <br/><br/>He will also talk about how Firebase team and Insturment (A digital creative agency) created this amazing Alternate Reality Game while teaching the participant a little bit about the new version of Firebase.",
+        "speakers": [
+            7
+        ],
+        "language": "English",
+        "complexity": "Beginner",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Community"
+        ]
+    },
+    "106": {
+        "id": 106,
+        "title": "Introduction: Machine Learning with Tensorflow",
+        "description": "Machine learning is one of the fastest-growing and most exciting fields. In this session, I will talk about basic machine learning concept and demo on TensorFlow, which is an Open Source Software Library for Machine Intelligence released by Google.",
+        "speakers": [
+            5
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Cloud",
+            "Machine Learning"
+        ]
+    },
+    "107": {
+        "id": 107,
+        "title": "Speechless: Public Speaking for Devs",
+        "description": "Armed only with a laser pointer and a deck of random slides, the presenters will put their talents to the test in the ultimate improvisational gauntlet, giving a presentation that they've never seen before.",
+        "speakers": [
+            11,
+            12
+        ],
+        "language": "English",
+        "complexity": "Beginner",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Community"
+        ]
+    },
+    "108": {
+        "id": 108,
+        "title": "In depth: Machine Learning with Tensorflow",
+        "description": "Machine learning is one of the fastest-growing and most exciting fields. In this session, I will talk about basic machine learning concept and demo on TensorFlow, which is an Open Source Software Library for Machine Intelligence released by Google.",
+        "speakers": [
+            5
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Cloud",
+            "Machine Learning"
+        ]
+    },
+    "109": {
+        "id": 109,
+        "title": "Why Every Android Developer Should Care About NDK",
+        "description": "Using Android Native Development Kit (NDK), we can interface native code written in C or C++ with Java Code in our standard Android development via Java Native Interface (JNI). <br/><br/>As the C/C++ code will be compiled into native library (.so or .a files) and packaged into the APK file, the decompiled code will be much less readable as compared to reading Java bytecode. <br/><br/>With the support of NDK in Android Studio, we can develop parts of our Android application in C or C++ (such as security-sensitive code) and interface it with the rest of the application written in Java.",
+        "speakers": [
+            13
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Android"
+        ]
+    },
+    "110": {
+        "id": 110,
+        "title": "Introduction to Progressive Web Application",
+        "description": "Nowadays, mobile applications are built everywhere, to improve life and solving problems. However, there’s still certain aspects and challenges that split between native app, hybrid app and web apps. Progressive Web Apps is a new approached proposed among multiple browsers (Edge, Chrome, Mozilla, Opera) for providing seamless experience and productive web apps in any devices or platforms. In this session we will be dive into the factors of instant-loading, fast, secure, responsive, push notifications and add to homescreen which makes Progressive Web Apps, along with existing products globally.",
+        "speakers": [
+            15
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Web"
+        ]
+    },
+    "111": {
+        "id": 111,
+        "title": "Secure your app and improve your app UX using Google Sign In",
+        "description": "Google Sign-In for Android lets you as an application developer authenticate a user with the same credentials they use on Google in very easy and secure way. After a user signs in with Google, you can create more engaging experiences and drive usage of your app with better performance and management to create user satisfaction.",
+        "speakers": [
+            8
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Android"
+        ]
+    },
+    "112": {
+        "id": 112,
+        "title": "How to delight your user with Progressive Web App",
+        "description": "Bok will be talking about how to progressively enhance your website using Angular2 and PWA to delight your users, sharing my own experience as a developer, the challenges a devleoper might face and how to overcome them. The objective is to share how a developer should think about PWA, the philosophy behind the PWA notion in the context of bettering the user experience and delivering a high value web app.",
+        "speakers": [
+            2
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Web"
+        ]
+    },
+    "113": {
+        "id": 113,
+        "title": "Woman Techmakers Fireside chat",
+        "description": "In this session, Nazlina will share more about WomenTechmakers Kuala Lumpur and her invaluable experience in Google I/O 2016 in May this year.",
+        "speakers": [
+            6,
+            17,
+            5,
+            18
+        ],
+        "language": "English",
+        "complexity": "Beginner",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+            "Community"
+        ]
+    },
+    "400": {
+        "id": 400,
+        "title": "[Workshop] Firebase and Cloud Vision (Android)",
+        "description": "Firebase has just updated to version 2.0! Do you want to learn more? Qamra will show you the basic implementation of the new Firebase, and how to use it with your old favorite UI elements such as RecyclerView as well as Firebase Storage (if you can catch up). That's not all! Qamra will also demonstrate how to implement Google Cloud Vision API into your app to identify what is in photos you upload from your gallery or via your phone camera!",
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "speakers": [
+            9
+        ],
+        "tags": [
+            "Android",
+            "Workshop"
+        ]      
+    },
+    "401": {
+        "id": 401,
+        "title": "[Workshop] Getting Started with Firebase (iOS)",
+        "description": "In this workshop, Daliso will show you how he use the latest features from Firebase to make an awesome iOS app. If you want to make iOS apps that are on fire, this is the workshop for you",
+        "language": "English",
+        "complexity": "Intermediate",
+        "thumbnail": "/images/sessions/101.JPG",
+        "tags": [
+          "Firebase",
+            "Workshop"
+        ],
+        "speakers": [
+            10
+        ]
+    }
+},
+  "speakers" : [ null, {
+    "id": 3,
+    "featured": true,
+    "name": "Taylor Ling",
+    "title": "UX GDE",
+    "company": "Fabulous Co.",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/taylor.jpg",
+    "bio": "Taylor is a professional Mobile Product Designer and passionate about good mobile UI/UX.</br>Previously he worked in a 3D printing company on their life-saving medical software. Today, he works at Snappymob, a startup in Kuala Lumpur making a difference in the local mobile app development scene by creating high quality apps that users love. He also designed Fabulous, a habit-forming app that got into Google Play Store Editor's Choice and nominated in Google Play Award.",
+    "shortBio": "Taylor is a professional Mobile Product Designer and passionate about good mobile UI/UX ...",
+    "tags": [
+      "Material Design"
+    ],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "Google Developers Expert",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "https://google.com/+taylorling"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/taylorling"
+      }
+    ]
+  }, {
+    "id": 2,
+    "featured": true,
+    "name": "Bok Thye Yeow",
+    "title": "Developer Relations Ecosystem Program Manager, Google APAC",
+    "company": "Google",
+    "country": "Singapore",
+    "photoUrl": "/images/people/bok.jpg",
+    "bio": "Bok Thye Yeow is a Google Developer Relations Program Manager and have more than a decade of experience developing full stack software solutions across various industries including telco, banking, digital and creative advertising, retail, etc. During his free time, he likes to experiment with new technology or taking his road bike out for a spin. He strongly believe we are only starting to scratch the surface of what's possible with technology in this era and is looking forward to the 'next big thing' to come!",
+    "shortBio": "Bok Thye Yeow is a Google Developer Relations Program Manager and have more than a decade of experience developing full stack software solutions across various industries ...",
+    "tags": [
+      "Web"
+    ],
+    "badges": [
+      {
+        "name": "Google",
+        "description": "Google Singapore",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/bokthyeyeow"
+      }
+    ]
+  }, {
+    "id": 4,
+    "featured": false,
+    "name": "Andhie Wong",
+    "title": "Senior Android Developer",
+    "company": "Agmo Studio Sdn Bhd",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/andhie.jpg",
+    "bio": "Andhie Wong is a highly experienced senior Android developer from Agmo Studio. A passionate and knowledgable Android developer, Andhie has been developing a great many number of Android applications, both for consumer and Android market. His apps encompass a great many industry, such as finance, oil & gas, and many more.",
+    "shortBio": "Andhie Wong is a highly experienced senior Android developer from Agmo Studio. A passionate and knowledgable Android developer ...",
+    "tags": [
+      "Android"
+    ],
+    "socials": [
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "https://plus.google.com/u/0/+AndhieWong"
+      }
+    ]
+  }, {
+    "id": 13,
+    "featured": true,
+    "name": "Yap Wen Jiun",
+    "title": "Lecturer",
+    "company": "Multimedia University",
+    "country": "Malaysia",
+    "photoUrl": "images/people/wenjiun.jpg",
+    "bio": "Yap Wen Jiun is a lecturer of engineering mathematics and programming on Raspberry Pi in Multimedia University while conducting research in Internet of Things and smart home. As a Google fan boy, he started Android development since the day of early beta, became the de facto speaker of the community CodeAndroid Malaysia and is now active in GDG KL. He has giving talks related to Android in several events such as BarCamps, MOSC, MyGOSSCON, TEDxMMU, DevFest and CampusG. He is currently experimenting with IoT projects with Bluetooth Low Energy.",
+    "shortBio": "Yap Wen Jiun is a lecturer of engineering mathematics and programming on Raspberry Pi in Multimedia University ...",
+    "tags": [
+      "Android"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developer Group Kuala Lumpur",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],    
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/wenjiun"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/wenjiun"
+      },
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "https://plus.google.com/+WenJiunYap"
+      }
+    ]
+  }, {
+    "id": 1,
+    "featured": false,
+    "name": "JT Liew",
+    "title": "Lead Organizer",
+    "company": "GDG Kuala Lumpur",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/jt.jpg",
+    "bio": "JT is a Full Stack Developer working in TABLEAPP Sdn. Bhd. He is also a lead organiser of Google Developer Group Kuala Lumpur. He loves to get close and make friends with experts and gurus in IT, business, and many other fields so that he can learn from them. Moreover, JT is also passionate in sharing what he learned to others, believing that through sharing we can achieve much more than we can ever imagined. As a FullStack developer working in a startup, he is skilled in Android, PHP, JavaScript, Python among other computer languages that encompass both front and backend.",
+    "shortBio": "JT is a Full Stack Developer working in TABLEAPP Sdn. Bhd. He is also a lead organiser of Google Developer Group Kuala Lumpur ...",
+    "tags": [
+      "Community"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developer Group Kuala Lumpur",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/LiewJunTung"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/LiewJunTung"
+      },
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "https://plus.google.com/+LiewJunTung"
+      }
+    ]
+  }, {
+    "id": 8,
+    "featured": false,
+    "name": "Dr. Seyedmostafa Safavi",
+    "title": "CEO, and Associate in Cyber Security Unit",
+    "company": "Protech, and UKM",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/seyedmostafa.jpg",
+    "bio": "Dr. Mostafa is an technopreneur and associate in cyber security unit, mentoring and leading a group that creates innovative ideas in the faculty of science and technology of the National University of Malaysia. He had a chance to lead a group of great programmers from \"BuyingBest\" to \"Boeing\" in last 10 years. In his professional life, he has contributed in different experiences from the web to mobile programming, IOT related healthcare services and more. Once he was working as a security advisor in Google Helpouts. His last patented innovation got Golden medal on ITEX Malaysia 2016. He has more than 55,000 followers on his channel in Google Plus and published several academic papers related to security and privacy from healthcare framework to Google Glass redesign. He has successfully conducted seminars, speeches and brought business in various geographies including Asia and Middle east.",
+    "shortBio": "Dr. Mostafa is an technopreneur and associate in cyber security unit, mentoring and leading a group that creates innovative ideas ...",
+    "tags": [
+      "Android"
+    ],
+    "socials": [
+      {
+        "name": "Website",
+        "icon": "website",
+        "link": "http://drsafavi.info"
+      },
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "http://google.com/+mostafasafavi"
+      }
+    ]
+  }, {
+    "id": 9,
+    "featured": false,
+    "name": "Qamra Jema Khan",
+    "title": "Senior Quant Analyst",
+    "company": "A Banking Group",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/qamra.jpg",
+    "bio": "Qamra is a Senior Quant Analyst who builds pricing models and deals with stochastic calculus. In her free time, she enjoys playing with Android and the newest APIs.You can find some of her published apps on the Google Play store. <br/><br/>Once upon a time, she bet professionally on football...",
+    "shortBio": "Qamra is a Senior Quant Analyst who builds pricing models and deals with stochastic calculus ...",
+    "tags": [
+      "Android"
+    ],
+    "socials": [
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/syahrulnjunaini"
+      }
+    ]
+  }, {
+    "id": 14,
+    "featured": false,
+    "name": "Syahrul Nizam Junaini",
+    "title": "Senior Lecturer",
+    "company": "Universiti Malaysia Sarawak (UNIMAS)",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/syahrul.jpg",
+    "bio": "Syahrul Nizam Junaini is a Senior Lecturer at the Faculty of Computer Science and Information Technology, Universiti Malaysia Sarawak (UNIMAS). He received his MSc in Electronic Imaging & Media Communications (Multimedia Systems) from University of Bradford, UK. His research interest focuses in the areas of web user experience and mobile application usability. He is a member of the editorial board for various international journals. In 2015 he received UNIMAS Academic Award (Teaching).",
+    "shortBio": "Syahrul Nizam Junaini is a Senior Lecturer at the Faculty of Computer Science and Information Technology, Universiti Malaysia Sarawak ...",
+    "tags": [
+      "Android"
+    ],
+    "socials": [
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/syahrulnjunaini"
+      }
+    ]
+  }, {
+    "id": 5,
+    "featured": false,
+    "name": "Christine",
+    "title": "Research Assistant",
+    "company": "University of Malaya",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/christine.jpg",
+    "bio": "Christine is a research assistant in the area of Computer Vision at Centre of Image and Signal Processing (CISIP), Department of Artificial Intelligence, University of Malaya under High Impact Research (HIR) grants. Spending most of her time in scene text detection research, she also demonstrated her passion for technology as a technology writer for Droid-Now and Penman Publishing.",
+    "shortBio": "Christine is a research assistant in the area of Computer Vision at Centre of Image and Signal Processing ...",
+    "tags": [
+      "Cloud",
+      "Machine Learning"
+    ],
+    "badges": [
+      {
+        "name": "WTM",
+        "description": "WTM Kuala Lumpur",
+        "link": "www.facebook.com/WomenTechmakersKL"
+      }
+    ],    
+    "socials": [
+      {
+        "name": "Website",
+        "icon": "website",
+        "link": "http://www.christinetee.com/"
+      }
+    ]
+  }, {
+    "id": 6,
+    "featured": false,
+    "name": "Nazlina Quadir",
+    "title": "Lead Organiser",
+    "company": "WomenTechmakers Kuala Lumpur",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/naz.jpg",
+    "bio": "Nazlina or Naz, is the other half of Nazrul (also known as Naz - Founder & Manager of GDG Malaysia). Having to tag alongside her soulmate during his geeky events, she saw the gap in gender equality and the needs to empower more Malaysian women to stand out and participate aggressively within the local technology community here in Malaysia. She immediately took on the role to lead the Google's WomenTechmakers global program and brand for women in science, technology, engineering and mathematics (STEM) for Kuala Lumpur and organised the 1st WomenTechmakers event on 30th March 2015 at Google Malaysia's Headquarters.",
+    "shortBio": "Nazlina or Naz, is the other half of Nazrul. Having to tag alongside her soulmate during his geeky events ...",
+    "tags": [
+      "WTM"
+    ],
+    "badges": [
+      {
+        "name": "WTM",
+        "description": "WTM Kuala Lumpur",
+        "link": "www.facebook.com/WomenTechmakersKL"
+      }
+    ],
+    "socials": [      
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/WomenTechmakersKL"
+      }]
+  }, {
+    "id": 7,
+    "featured": false,
+    "name": "Henry Lim",
+    "title": "Event Organizer",
+    "company": "GDG Kuala Lumpur",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/henry.jpg",
+    "bio": "Henry Lim is an awesome and passionate web developer! He loves to learn and implement all the latest and greatest of Google Web Developer technologies. He experimented with Polymer, Firebase, Progressive Web App, Android and many more! <br/><br/>He is currently part of the organizing team of Google Developer Group Kuala Lumpur. <br/><br/>He won the best progressive web app in Firebase Static Showdown 2016 Hackathon and he also won the Firebass Challenge. This is why he loves Firebase so much.",
+    "shortBio": "Henry Lim is an awesome and passionate web developer! He loves to learn and implement all the latest and greatest of Google Web Developer technologies ...",
+    "tags": [
+      "Community"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developer Group Kuala Lumpur",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Website",
+        "icon": "website",
+        "link": "https://limhenry.xyz/"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/henrylim96"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "link": "https://github.com/limhenry"
+      }
+    ]
+  }, {
+    "id": 15,
+    "featured": false,
+    "name": "SC Kim",
+    "title": "Mobile Developer & Trainer",
+    "company": "MyXLab UKM",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/sckim.jpg",
+    "bio": "SC is a will-not-bite techie who had his recognized experience in developing mobile solutions and provides multiple technical training modules while pursuing his Master of Research in The National University of Malaysia (UKM) which involves Progressive Web Apps for providing seamless mobile experience across platforms. He is also a Malaysian-representative alumni from Google Student Ambassadors SEA 2014/2015 and became multiple technical events speakers including recent Firebase session in Malaysia Open Source Conference 2016.",
+    "shortBio": "SC is a will-not-bite techie who had his recognized experience in developing mobile solutions ...",
+    "tags": [
+      "Polymer",
+      "Progressive Web App",
+      "Firebase"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developer Group Kuala Lumpur",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "https://google.com/+SCKim"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/saychun_kim"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/johnny.k.sc"
+      }
+    ]
+  }, {
+    "id": 10,
+    "featured": false,
+    "name": "Daliso Ngoma",
+    "title": "iOS Developer",
+    "company": "Ebizu Sdn Bhd",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/daliso.jpg",
+    "bio": "Daliso is an iOS Developer at Ebizu (a retail and advertising company), and an alumni of APU with a Bachelor's Degree in Software Engineering. Since 2014 he's being coding iOS apps, and as such he mixes and matches Swift and Objective-C on a regular basis.\n\nCurrently he's learning Ruby in his free time, and teaches iOS development at the APU for the Student Developer Society.",
+    "shortBio": "Daliso is an iOS Developer at Ebizu, and an alumni of APU with a Bachelor's Degree in Software Engineering ...",
+    "tags": [
+      "Polymer",
+      "Progressive Web App",
+      "Firebase"
+    ],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/djngoma"
+      }
+    ]
+  }, {
+    "id": 11,
+    "featured": false,
+    "name": "Nicholas Lee",
+    "title": "Student",
+    "company": "Asia Pacific University",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/nicholas.jpg",
+    "bio": "Nicholas is a student from Asia Pacific University, studying Computer Science. Everyday he tries to learn something new. Loves all things Google. He is a tech & media enthusiast. Sort of a Filmmaker, Photographer & Podcaster. He interned in webe digital sdn bhd in being part of the team building the e-commerce website.",
+    "shortBio": "Nicholas is a student from Asia Pacific University, studying Computer Science ...",
+    "tags": [
+      "Community"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developer Group Kuala Lumpur",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],      
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/nicholasleezt"
+      }
+    ]
+  }, {
+    "id": 16,
+    "featured": false,
+    "name": "Ibrahim Abdul Rahim",
+    "title": "Director",
+    "company": "KL Sandbox",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/ibrahim.jpg",
+    "bio": "Ibrahim a software developer in Kuala Lumpur, formerly a Senior Software Engineer at Microsoft. He worked on Bing (Microsoft Search), and Windows Server, including PowerShell. He's transitioning off corporate programming, doing freelance, consulting, and startups. One of his startups, Skadimo, was chosen by MaGIC for the e@Stanford program. He built the LaundryOnTheGo app in Ionic, Zinnian app in Android, and WeQuran in Ionic. He hosts Open Office Hours weekly, where he shares his technical expertise online, on Facebook Live",
+    "shortBio": "Ibrahim a software developer in Kuala Lumpur, formerly a Senior Software Engineer at Microsoft ...",
+    "tags": [
+      "Firebase",
+      "Android"
+    ],
+    "socials": [
+      {
+        "name": "Google Plus",
+        "icon": "gplus",
+        "link": "https://google.com/+SCKim"
+      },
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/ibrahimabdulrahim"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/ibrahim.bin.abdulrahim"
+      }
+    ]
+  }, {
+    "id": 17,
+    "featured": false,
+    "name": "Jenna Huey",
+    "title": "Co-founder & Director",
+    "company": "Pconnex (Fintech)",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/jenna.jpg",
+    "bio": "Five words. Fintech, law, marketing, events and teaching.  Dare to dream and be bold! Sometimes, you may catch her dancing the night away with her friends.",
+    "shortBio": "Five words. Fintech, law, marketing, events and teaching.  Dare to dream and be bold!  ...",
+    "tags": [
+      "WTM"
+    ],
+    "socials": [
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/jennahuey"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/hchingjenna"
+      }
+    ]
+  }, {
+    "id": 12,
+    "featured": false,
+    "name": "Eshaan Menon",
+    "title": "Country Manager",
+    "company": "YouthHack Malaysia",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/eshaan.jpg",
+    "bio": "Eshaan is a junior web developer studying at Asia Pacific University. As a student he has contributed to multiple voluntary technology user groups and is an avid supporter of youth in tech. As a freelancer, Eshaan has worked primarily on commercial projects for startups and larger companies alike.",
+    "shortBio": "Eshaan is a junior web developer studying at Asia Pacific University. As a student he has contributed to multiple voluntary technology user groups ...",
+    "tags": [
+      "Community"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developer Group Kuala Lumpur",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],     
+    "socials": [
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/eshaan.menon"
+      }
+    ]
+  }, {
+    "id": 18,
+    "featured": false,
+    "name": "Shiva Narrthine",
+    "title": "Front-end Designer",
+    "company": "VLT Labs",
+    "country": "Malaysia",
+    "photoUrl": "/images/people/shiva.jpg",
+    "bio": "Shiva is a full-stack designer - working on UX and UI design, as well as front-end development. She has previously co-founded two startups and served as the Design Lead in both of them. Currently, she is building meaningful digital products at VLT Labs, a venture builder based in Kuala Lumpur.",
+    "shortBio": "Shiva is a full-stack designer - working on UX and UI design, as well as front-end development ...",
+    "tags": [
+      "WTM"
+    ],
+    "badges": [
+      {
+        "name": "WTM",
+        "description": "WTM Kuala Lumpur",
+        "link": "www.facebook.com/WomenTechmakersKL"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/shivanarrthine"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://www.twitter.com/narrthine"
+      }      
+    ]
+  } ],
+  "team" : [],
+  "tickets" : {
+    "elements" : [{
+      "name" : "Early Bird",
+      "price" : "FREE",
+      "soldOut" : true
+    }, {
+      "name" : "Standard",
+      "price" : "FREE",
+      "soldOut" : true
+    }],
+    "url" : "http://ioxkl16.peatix.com/"
+  },
+  "videos" : []
+}

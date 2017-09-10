@@ -1,0 +1,34 @@
+[{
+  "id": "code-of-conduct",
+  "title": "Code Of Conduct",
+  "posted": "2016-07-07",
+  "primaryColor": "#37474F",
+  "secondaryColor": "#37474F",
+  "image": "/images/posts/Community_Guidelines_01.png",
+  "brief": "The Google Developers Group Kuala Lumpur is honored to announce Google I/O Extended 2016! The event will be held on the 30th of July at the Asia Pacific University of Technology and Innovation in Bukit Jalil. Take a break from everything you have to do, and make sure you are in Bukit Jalil for this once in a lifetime event as you will be able to learn and have fun around coders, hackers, geeks and experts of our industry!"
+}, {
+  "id": "getting-to-apu",
+  "title": "Getting To Asia Pacific University",
+  "posted": "2016-07-07",
+  "primaryColor": "#1B5E20",
+  "secondaryColor": "#1B5E20",
+  "image": "/images/posts/Getting_There-01.png",
+  "brief": "Ukrainian GDGs are proud to announce the fourth annual GDG DevFest 2015 - the largest Google related event in Ukraine. Like last year, the event will be held on 23-24 October in Lviv. So aside all your business at this time and book tickets to the cultural capital of Ukraine."
+},{
+  "id": "about-gdg-kuala-lumpur",
+  "title": "About GDG Kuala Lumpur",
+  "posted": "2016-07-07",
+  "primaryColor": "#FFEB3B",
+  "secondaryColor": "#E65100",
+  "image": "/images/posts/gdgkl-02.png",
+  "brief": "Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API. "
+}, {
+  "id": "ioxkl-2016-announced",
+  "title": "I/O Extended 2016 Kuala Lumpur Announced",
+  "posted": "2016-07-07",
+  "primaryColor": "#1A237E",
+  "secondaryColor": "#1A237E",
+  "image": "/images/backgrounds/home.jpg",
+  "brief": "The Google Developers Group Kuala Lumpur is honored to announce Google I/O Extended 2016! The event will be held on the 30th of July at the Asia Pacific University of Technology and Innovation in Bukit Jalil."
+}
+]
