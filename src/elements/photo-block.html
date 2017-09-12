@@ -77,7 +77,7 @@
       <div class="photo big">
         <iron-image
           class="placeholder-color"
-          src="{$ gallery.photos.big $}"
+          src="[[rootPath]]{$ gallery.photos.big $}"
           sizing="cover"
           preload fade
         ></iron-image>
@@ -90,7 +90,7 @@
         <div class="photo">
           <iron-image
             class="placeholder-color"
-            src="{$ gallery.photos.small[0] $}"
+            src="[[rootPath]]{$ gallery.photos.small[0] $}"
             sizing="cover"
             preload fade
           ></iron-image>
@@ -102,7 +102,7 @@
         <div class="photo">
           <iron-image
             class="placeholder-color"
-            src="{$ gallery.photos.small[1] $}"
+            src="[[rootPath]]{$ gallery.photos.small[1] $}"
             sizing="cover"
             preload fade
           ></iron-image>

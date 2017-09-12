@@ -102,7 +102,7 @@
       <paper-toolbar class="tall">
         <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         <div class="middle fallback-image-wrapper">
-          <iron-image sizing="cover" class="fallback-image" src="/images/logo-white.svg"
+          <iron-image sizing="cover" class="fallback-image" src="[[rootPath]]images/logo-white.svg"
                       alt="{$ title $}"></iron-image>
         </div>
       </paper-toolbar>
@@ -221,7 +221,7 @@
                     break-last-word
                   ></truncate-marked-text>
 
-                  <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>{$ readMore $}</a>
+                  <a class="read-more" href$="[[rootPath]]speakers/[[speaker.id]]" dialog-dismiss>{$ readMore $}</a>
                 </div>
               </div>
             </template>

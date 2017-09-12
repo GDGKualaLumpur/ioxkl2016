@@ -34,26 +34,26 @@
   },
   "hashtag": "ioxkl16",
   "disqusShortName": "hoverboard-gdg-x",
-  "tweetsSource": "/data/tweets.json",
+  "tweetsSource": "data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
   "enableSessionsRating": true,
   "navigation": [
     {
       "route": "home",
-      "permalink": "/"
+      "permalink": ""
     },
     {
       "route": "blog",
-      "permalink": "/blog/"
+      "permalink": "blog/"
     },
     {
       "route": "schedule",
-      "permalink": "/schedule/"
+      "permalink": "schedule/"
     },
     {
       "route": "speakers",
-      "permalink": "/speakers/"
+      "permalink": "speakers/"
     }
   ],
   "social": [
@@ -74,7 +74,7 @@
     }
   ],
   "location": {
-    "apiKey": "",
+    "apiKey": "AIzaSyB64ErHliORv4aifmGzFnlHfWOnUmL1LVE",
     "name": "Asia Pacific University of Technology & Innovation",
     "address": "Asia Pacific University of Technology & Innovation, Technology Park Malaysia, Bukit Jalil, 57000 Kuala Lumpur",
     "link": "http://www.apu.edu.my/",
@@ -87,15 +87,15 @@
       "latitude": 3.0477451,
       "longitude": 101.696006
     },
-    "images": ["/images/backgrounds/apu.jpg"]
+    "images": ["images/backgrounds/apu.jpg"]
   },
   "gallery": {
     "albumUrl": "https://plus.google.com/photos/106366117871957399001/albums/6215157583400442289",
     "photos": {
-      "big": "/images/backgrounds/dev15_1.jpg",
+      "big": "images/backgrounds/dev15_1.jpg",
       "small": [
-        "/images/backgrounds/dev15_2.jpg",
-        "/images/backgrounds/dev15_3.jpg"
+        "images/backgrounds/dev15_2.jpg",
+        "images/backgrounds/dev15_3.jpg"
       ]
     }
   },
@@ -104,7 +104,7 @@
       "title": "Home",
       "headerSettings": {
         "backgroundColor": "#311B92",
-        "backgroundImage": "/images/backgrounds/home.jpg",
+        "backgroundImage": "images/backgrounds/home.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {

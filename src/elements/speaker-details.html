@@ -26,11 +26,11 @@
 
     <paper-scroll-header-panel id="scrollHeaderPanel" condenses="{{app.isPhoneSize}}" no-reveal="{{!app.isPhoneSize}}">
       <paper-toolbar class="tall">
-        <a href="/speakers">
+        <a href="[[rootPath]]speakers">
           <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         </a>
         <div class="middle fallback-image-wrapper" hidden$="{{app.isPhoneSize}}">
-          <iron-image sizing="cover" class="fallback-image" src="/images/logo-white.svg"
+          <iron-image sizing="cover" class="fallback-image" src="[[rootPath]]images/logo-white.svg"
                       alt="{$ title $}"></iron-image>
         </div>
         <div id="title" class="bottom title toolbar-title" hidden$="{{!app.isPhoneSize}}">[[speaker.name]]</div>
@@ -83,7 +83,7 @@
                     characters="220"
                     break-last-word
                   ></truncate-marked-text>
-                  <a class="read-more" hidden$="{{!session.day}}" href$="/schedule/day[[session.day]]?sessionId=[[session.id]]" dialog-dismiss>{$ readMore $}</a>
+                  <a class="read-more" hidden$="{{!session.day}}" href$="[[rootPath]]schedule/day[[session.day]]?sessionId=[[session.id]]" dialog-dismiss>{$ readMore $}</a>
                 </div>
               </div>
             </template>

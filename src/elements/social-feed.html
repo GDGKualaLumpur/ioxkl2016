@@ -52,7 +52,7 @@
 
     <iron-ajax
       auto
-      url="{$ tweetsSource $}"
+      url="[[rootPath]]{$ tweetsSource $}"
       handle-as="json"
       last-response="{{_posts}}"
     ></iron-ajax>

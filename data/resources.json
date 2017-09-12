@@ -63,11 +63,6 @@
       "title": "For visitors",
       "links": [
         {
-          "text": "Code of Conduct",
-          "url": "/cod/",
-          "newTab": false
-        },
-        {
           "text": "GDG Kuala Lumpur",
           "url": "https://developers.google.com/groups/chapter/106366117871957399001/",
           "newTab": true

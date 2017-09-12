@@ -63,7 +63,7 @@
           <marked-element markdown="[[_posts.0.brief]]">
             <div class="markdown-html"></div>
           </marked-element>
-          <a href$="[[_posts.0.url]]">{$ continueReading $}</a>
+          <a href$="[[rootPath]][[_posts.0.url]]">{$ continueReading $}</a>
         </div>
         <span class="post-divider"></span>
         <div class="post">
@@ -71,7 +71,7 @@
           <marked-element markdown="[[_posts.1.brief]]">
             <div class="markdown-html"></div>
           </marked-element>
-          <a href$="[[_posts.1.url]]">{$ continueReading $}</a>
+          <a href$="[[rootPath]][[_posts.1.url]]">{$ continueReading $}</a>
         </div>
       </div>
     </div>
@@ -104,7 +104,7 @@
         _postsChanged: function () {
           var temp = this.posts.slice(0, 2);
           for (var i = 0, len = temp.length; i < len; i++) {
-            temp[i].url = '/blog/posts/' + temp[i].id + '/';
+            temp[i].url = 'blog/posts/' + temp[i].id + '/';
           }
           this._posts = temp;
         }

@@ -92,9 +92,9 @@
 
     <div class="container posts-container">
       <template is="dom-repeat" items="[[posts]]" as="post" on-dom-change="updateCascadedNodes">
-        <a href$="/blog/posts/[[post.id]]/" class="post"
+        <a href$="[[rootPath]]blog/posts/[[post.id]]/" class="post"
            style$="background-color: [[post.primaryColor]];" cascaded>
-          <iron-image class="image" src="[[post.image]]" style$="background-color: [[post.primaryColor]];"
+          <iron-image class="image" src="[[rootPath]][[post.image]]" style$="background-color: [[post.primaryColor]];"
                       sizing="cover" preload fade></iron-image>
           <div class="title" style$="background-color: [[post.secondaryColor]];">[[post.title]]</div>
         </a>
