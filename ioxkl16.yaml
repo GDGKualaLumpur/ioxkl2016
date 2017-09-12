@@ -6,31 +6,39 @@ runtime: python27
 handlers:
 - url: /ioxkl16/bower_components
   static_dir: build/bower_components
+  secure: always
 
 - url: /ioxkl16/data
   static_dir: build/data
+  secure: always
 
 - url: /ioxkl16/images
   static_dir: build/images
+  secure: always
 
 - url: /ioxkl16/src
   static_dir: build/src
+  secure: always
 
 - url: /ioxkl16/scripts
   static_dir: build/scripts
+  secure: always
 
 - url: /ioxkl16/service-worker.js
   static_files: build/service-worker.js
   upload: build/service-worker.js
   expiration: "1s"
+  secure: always
 
 - url: /ioxkl16/manifest.json
   static_files: build/manifest.json
   upload: build/manifest.json
+  secure: always
 
 - url: /ioxkl16/.*
   static_files: build/index.html
   upload: build/index.html
+  secure: always
 
 - url: /ioxkl16.*
   script: main.app
@@ -39,6 +47,7 @@ handlers:
 - url: /
   static_files: build/index.html
   upload: build/index.html
+  secure: always
 
 skip_files:
   - node_modules
